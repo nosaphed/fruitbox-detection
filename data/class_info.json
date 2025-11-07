@@ -1,0 +1,28 @@
+{
+  "classes": {
+    "0": "Peer Ya Li",
+    "1": "Peer hijau",
+    "2": "Peer Centuri",
+    "3": "Pear Ya Li",
+    "4": "Pear Crown",
+    "5": "Pear Centuri",
+    "6": "Jeruk Citrus",
+    "7": "Apel Malang",
+    "8": "Apel Fuji Premium",
+    "9": "Apel Fuji Pinguin",
+    "10": "Apel Fuji Lwstar"
+  },
+  "prices": {
+    "Peer Ya Li": 45000,
+    "Peer hijau": 50000,
+    "Peer Centuri": 55000,
+    "Pear Ya Li": 45000,
+    "Pear Crown": 50000,
+    "Pear Centuri": 55000,
+    "Jeruk Citrus": 35000,
+    "Apel Malang": 40000,
+    "Apel Fuji Premium": 60000,
+    "Apel Fuji Pinguin": 55000,
+    "Apel Fuji Lwstar": 50000
+  }
+}

@@ -1,0 +1,17 @@
+path: ./data
+train: train/images
+val: val/images
+
+nc: 11
+names:
+  0: Peer Ya Li
+  1: Peer hijau
+  2: Peer Centuri
+  3: Pear Ya Li
+  4: Pear Crown
+  5: Pear Centuri
+  6: Jeruk Citrus
+  7: Apel Malang
+  8: Apel Fuji Premium
+  9: Apel Fuji Pinguin
+  10: Apel Fuji Lwstar

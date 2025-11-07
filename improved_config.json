@@ -1,0 +1,11 @@
+{
+  "model_size": "s",
+  "epochs": 150,
+  "batch_size": 8,
+  "imgsz": 640,
+  "patience": 30,
+  "conf_threshold": 0.7,
+  "iou_threshold": 0.7,
+  "max_det": 10,
+  "augmentation_multiplier": 15
+}

@@ -1,0 +1,179 @@
+# Fruit Detection System - .gitignore
+
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ============================================
+# Virtual Environment
+# ============================================
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ============================================
+# IDE / Editor
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ============================================
+# Jupyter Notebook
+# ============================================
+.ipynb_checkpoints
+*.ipynb
+
+# ============================================
+# Data Files (Large)
+# ============================================
+# Raw images (user should add their own)
+data/raw_images/*.png
+data/raw_images/*.jpg
+data/raw_images/*.jpeg
+
+# Processed images (generated)
+data/processed_images/*.jpg
+data/processed_images/*.png
+
+# Background images (can be regenerated)
+data/backgrounds/*.jpg
+data/backgrounds/*.png
+
+# Annotations (generated)
+data/annotations/*.txt
+
+# Train/Val splits (generated)
+data/train/
+data/val/
+
+# Cache files
+*.cache
+data/*.cache
+data/*/*.cache
+
+# ============================================
+# Model Files (Large)
+# ============================================
+# Trained models (too large for git)
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*.tflite
+models/*.pb
+
+# Model training runs
+models/fruit_detector*/
+models/runs/
+
+# Pretrained models (will auto-download)
+yolo*.pt
+yolo11*.pt
+
+# ============================================
+# Output Files
+# ============================================
+# Screenshots
+screenshots/*.jpg
+screenshots/*.png
+
+# Detection results
+results/
+output/
+
+# Logs
+*.log
+debug.log
+training.log
+
+# ============================================
+# Temporary Files
+# ============================================
+*.tmp
+*.temp
+*.bak
+*.backup
+*_backup.*
+
+# ============================================
+# OS Files
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ============================================
+# Git
+# ============================================
+*.orig
+*.rej
+
+# ============================================
+# Compressed Files
+# ============================================
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ============================================
+# Keep These (Important)
+# ============================================
+# Keep empty directories with .gitkeep
+!data/raw_images/.gitkeep
+!data/backgrounds/.gitkeep
+!data/processed_images/.gitkeep
+!data/annotations/.gitkeep
+!models/.gitkeep
+!screenshots/.gitkeep
+
+# Keep configuration files
+!data/dataset.yaml
+!data/class_info.json
+!improved_config.json
+
+# Keep documentation
+!*.md
+!README.md
+!LICENSE
+
+# Keep requirements
+!requirements.txt
+
+# Keep sample files (if any)
+!data/raw_images/sample.png
+!data/backgrounds/sample.jpg
