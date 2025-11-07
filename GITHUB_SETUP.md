@@ -72,7 +72,7 @@ git commit -m "feat: initial commit - fruit detection system v1.0.0
 ### Step 4: Create GitHub Repository
 
 1. Go to https://github.com/new
-2. Repository name: `fruit-detection-yolov8`
+2. Repository name: `fruitbox-detection`
 3. Description: `Real-time fruit detection system using YOLOv8 with automatic price display`
 4. Choose: **Public** or **Private**
 5. **DO NOT** initialize with README (we already have one)
@@ -82,7 +82,7 @@ git commit -m "feat: initial commit - fruit detection system v1.0.0
 
 ```bash
 # Add remote
-git remote add origin https://github.com/YOUR_USERNAME/fruit-detection-yolov8.git
+git remote add origin https://github.com/nosaphed/fruitbox-detection.git
 
 # Verify remote
 git remote -v
@@ -381,7 +381,7 @@ Before announcing:
 
 Your repository is now live at:
 ```
-https://github.com/YOUR_USERNAME/fruit-detection-yolov8
+https://github.com/nosaphed/fruitbox-detection
 ```
 
 Share it with the world! 🌍

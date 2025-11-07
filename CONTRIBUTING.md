@@ -8,7 +8,7 @@ Thank you for considering contributing to this project! 🎉
 ```bash
 # Click "Fork" button on GitHub
 # Clone your fork
-git clone https://github.com/YOUR_USERNAME/fruit-detection.git
+git clone https://github.com/nosaphed/fruit-detection.git
 cd fruit-detection
 ```
 
@@ -57,7 +57,7 @@ git push origin feature/your-feature-name
 
 ```bash
 # Clone repository
-git clone https://github.com/YOUR_USERNAME/fruit-detection.git
+git clone https://github.com/nosaphed/fruit-detection.git
 cd fruit-detection/src
 
 # Create virtual environment

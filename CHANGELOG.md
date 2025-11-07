@@ -163,7 +163,7 @@ No breaking changes. Simply:
 
 ## Contributors
 
-- Main Developer: [Your Name]
+- Main Developer: [nosaphed]
 - Contributors: See [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ---
@@ -171,9 +171,9 @@ No breaking changes. Simply:
 ## Support
 
 - 📖 [Documentation](README.md)
-- 🐛 [Report Bug](https://github.com/yourusername/fruit-detection/issues)
-- 💡 [Request Feature](https://github.com/yourusername/fruit-detection/issues)
-- 💬 [Discussions](https://github.com/yourusername/fruit-detection/discussions)
+- 🐛 [Report Bug](https://github.com/nosaphed/fruit-detection/issues)
+- 💡 [Request Feature](https://github.com/nosaphed/fruit-detection/issues)
+- 💬 [Discussions](https://github.com/nosaphed/fruit-detection/discussions)
 
 ---
 
